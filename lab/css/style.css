@@ -14,14 +14,14 @@
 .left{
     background-color: rgb(238, 157, 157);
     border-radius: 10px;
-    height: 585px;
-    width: 30%;
+    height: 685px;
+    width: 20%;
     float: left;
     margin-bottom: 20px;
 }
 .right{
-    height: 585px;
-    width: 69%;
+    height: 685px;
+    width: 79%;
     float: right;
 }
 iframe{
