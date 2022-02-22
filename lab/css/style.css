@@ -3,12 +3,14 @@
 }
 .top{
     background-color: rgb(243, 93, 93);
- height: 120px;
+ height: 80px;
     text-align: center;
     font-size: 30px;
     color: #fff;
-    line-height: 100px;
-margin-bottom: 20px;}
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
 .left{
     background-color: rgb(238, 157, 157);
     border-radius: 10px;
