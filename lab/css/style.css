@@ -3,7 +3,7 @@
 }
 .top{
     background-color: rgb(243, 93, 93);
-    height: 80px;
+ height: 80px;
     text-align: center;
     font-size: 30px;
     color: #fff;
@@ -61,4 +61,17 @@ a:hover{
     color:red;
     background-color: rgb(238, 157, 157);
     font-size:20px;
+}
+footer{
+    clear: both;
+    background-color: rgb(243, 93, 93);
+    height: 80px;
+    
+}
+footer h5{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+    padding-top: 10px;
 }
