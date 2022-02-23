@@ -79,7 +79,7 @@ ul,li,ol {
     width: 220px;
     margin: 0 34px;
     display: block;
-    background: url(/image/logox.png) no-repeat;
+    background: url(../image/logox.png) no-repeat;
     background-size: contain;
 }
 #searchBox {
@@ -168,6 +168,12 @@ ul,li,ol {
     display: block;
     min-height: 1500px
 }
+.main-contentx {
+    width: 740px;
+    display: block;
+    min-height: 650px
+}
+
 
 .main-content img {
     float: left;
@@ -335,7 +341,7 @@ hr {
     width: 220px;
     margin: 0 34px;
     display: block;
-    background: url(/image/logox.png) no-repeat;
+    background: url(../image/logox.png) no-repeat;
     background-size: contain;
 }
 
@@ -422,4 +428,41 @@ to {opacity: 1}
 @keyframes fade {
 from {opacity: .4} 
 to {opacity: 1}
+}
+
+.pagination-container {
+    clear: both;
+}
+.pagination {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+.pagination li {
+    display: inline-block;
+}
+.pagination li a {
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+/* Điều khoản*/ 
+.titledk{
+    color:red;
+    text-align: center;
+    font-weight:700;
+    font-size:25px;
+}
+.titlemi{
+    color:red;
+    font-size:18px;
 }

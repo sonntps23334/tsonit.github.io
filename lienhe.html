@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta property="og:title" content="Báo mới đâyyyyyyy" />
+    <meta property="og:description" content="New - ASM" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+    <meta property="og:image" content="https://i.imgur.com/RcaVWAn.jpg" />
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="https://i.imgur.com/9qvw8bO.jpg">
+    <link rel="stylesheet" href="./css/chuyenmuc.css">
+    <title>Liên hệ</title>
+    <style>
+        input[type="text"],input[name="browser"],input[type="date"]{
+            width: 200px;
+    max-width: 90%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    height: 32px;
+    margin: 5px 0;
+    padding: 0 10px;
+        }
+        .but{
+  background-color: #f95252;
+  color: #fff;
+  padding: 4px 24px;
+  text-align: center;
+}
+.but:hover {
+  background-color: #b80303;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!--1. header -->
+        <div id="header">
+            <div id="toplink">
+                <ul class="social">
+                    <ul>
+                        <li><a href="./login.html">Đăng nhập</a></li>
+                        <li><a href="./reg.html">Đăng ký</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="headerleft"><a href="./" id="logo" title="LOGO"></a></div>
+            <div id="searchBox">
+                <form id="cse-search-box">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="cof" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <input class="q" type="text" name="q" size="55" placeholder="Nhập từ khóa tìm kiếm">
+                    <input class="asearch" type="submit" name="sa" value="Search">
+                </form>
+            </div>
+        </div>
+        <!--2. Menu -->
+        <div>
+            <ul id="topnav">
+                <li class="item all">
+                    <a href="./index.html"><img src="image/icons/home.png"> Trang chủ</a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/cong-nghe"><img src="image/icons/tech.png"> Công nghệ </a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/doi-song"><img src="image/icons/earth.png"> Đời sống </a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/kham-pha-y-hoc"><img src="image/icons/sciencex.png"> Khám phá khoa học
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/vu-tru"><img src="image/icons/universe.png"> Khoa học vũ trụ
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/1001-bi-an"><img src="image/icons/aliens.png">1001 bí ẩn </a>
+                </li>
+                <li class="item">
+                    <a href="./chuyenmuc/yhoc"><img src="image/icons/health.png">Y học - Sức khỏe
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--3. Main -->
+        <div class="main">
+            <!--4. Bên trái -->
+            <div class="main-left">
+                <div class="navbox">
+                    <ul id="leftnav" class="navigation clearfix">
+                        
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--5. Nội dung chính giữa -->
+            <div class="main-contentx">
+                <form action="#" class="reg_form" method="POST" enctype="multipart/form-data">
+                    
+                       <div>
+                         <label for="name">Họ và tên</label></br>
+                         <input type="text" id="hu" name="email" placeholder="Nguyễn Thành Sơn">
+                       </div>
+                       <div>
+                        <label for="name">Mail: </label></br>
+                        <input type="text" id="hu" name="email" placeholder="mail@mail.com">
+                      </div>
+                       
+                       <div>
+                           <label for="ngaysinh">Ngày sinh</label></br>
+                           <input type="date" id="hu" name="ngaysinh" class="image">
+                       </div>
+                       <div>
+                           <label for="diem" >Điện thoại</label></br>
+                           <input type="text" id="hu" name="phone" placeholder="039xxxxxxx">
+                       </div>
+                       <div>
+                        <div>
+                            <label for="name">Địa chỉ liên hệ: </label></br>
+                            <input type="text" id="hu" name="email" placeholder="Đồng Nai">
+                          </div>
+                           <label for="browser">Chủ đề:</label></br>
+                           <input list="browsers" name="browser" id="browser">
+                           <datalist id="browsers">
+                              <option value="Góp ý">
+                               <option value="Hỗ trợ">
+                                   <option value="Báo lỗi">
+                                       <option value="Hợp tác">
+                           </datalist>
+                       </div>
+        
+                               <label for="note"> Nội dung liên hệ</label></br>
+                               <textarea name="note" id="hu" rows="8" cols="60" style="resize:none;"></textarea>
+                               <div>
+                                <input class="but" type="submit" value="Gửi thông tin">
+                              </div>
+                            </div>
+                       
+                      
+                 
+                     </form>
+            </div>
+
+        </div>
+        <!--8. Chân trang -->
+        <div id="footer">
+            <div class="info"><a href="./index.html">Trang chủ</a> . <a href="./baomat.html">Bảo mật</a> . <a href="./lienhe.html" rel="#">Liên hệ</a> . <a
+                    href="https://www.facebook.com/thanhson1711" target="_blank" rel="nofollow">Facebook</a> .</div>
+            <div id="copyright"> Copyright © 2022 <a href="https://facebook.com/thanhson1711">ThanhSon</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="./slide.js"></script>
+</body>
+
+</html>

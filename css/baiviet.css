@@ -16,7 +16,7 @@
     width: 220px;
     margin: 0 34px;
     display: block;
-    background: url(/image/logox.png) no-repeat;
+    background: url(../image/logox.png) no-repeat;
     background-size: contain;
 }
 
